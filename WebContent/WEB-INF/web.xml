@@ -8,4 +8,44 @@
     <filter-name>ArticleFilter</filter-name>
     <url-pattern>/ArticleServlet</url-pattern>
   </filter-mapping>
+    <servlet>
+        <servlet-name>AddServlet</servlet-name>
+        <servlet-class>blog.servlet.AddServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>blog.servlet.AdminServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ArticleServlet</servlet-name>
+        <servlet-class>blog.servlet.ArticleServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AxisServlet</servlet-name>
+        <servlet-class>blog.servlet.AxisServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>blog.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NewArticleServlet</servlet-name>
+        <servlet-class>blog.servlet.NewArticleServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NewCommentServlet</servlet-name>
+        <servlet-class>blog.servlet.NewCommentServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SortServlet</servlet-name>
+        <servlet-class>blog.servlet.SortServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TagsServlet</servlet-name>
+        <servlet-class>blog.servlet.TagsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateServlet</servlet-name>
+        <servlet-class>blog.servlet.UpdateServlet</servlet-class>
+    </servlet>
 </web-app>

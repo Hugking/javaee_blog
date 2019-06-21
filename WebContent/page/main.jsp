@@ -25,14 +25,12 @@
 
 				<div id="title">
 					<h2><a href="/Blog/login.html">MyBlog</a></h2>
-					<h5 class="text-muted">Winner Winner Chicken Dinner!</h5>
 				</div>
 
 				<div class="c_center" id="person_info">
 					<img src="/Blog/img/header.jpg" height="130" width="130"
 						alt="丢失了我的头像?" class="img-circle">
-					<h4 class="text-muted">Lemonreds</h4>
-					<h5 class="text-muted">星星和浮云.</h5>
+					<h4 class="text-muted">wkaanig</h4>
 				</div>
 
 				<div class="c_center">
@@ -126,14 +124,14 @@
 				
 				
 			<!-- admin here -->
-			<c:if test="${sessionScope.user!=null}">
+			<!--<c:if test="${sessionScope.user!=null}">-->
 			<a href="/Blog/AddServlet">
 			<span class="glyphicon glyphicon-plus">&nbsp;&nbsp;写新文章&nbsp;&nbsp;</span>
 			</a>
 			<a href="/Blog/AdminServlet">
 			<span class="glyphicon glyphicon glyphicon-user">&nbsp;&nbsp;管理更多&nbsp;&nbsp;</span>
 			</a>
-			</c:if>
+			<!--</c:if>-->
 			<!--  -->
 			
 			</div>
